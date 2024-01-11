@@ -93,14 +93,46 @@
     margin-left: 0; /* Reset margin */
   }
 
-  .footer {
-    padding: 10px 0; /* Adjust footer padding */
-    text-align: center;
-  }
+/* ... (Existing styles) ... */
 
-  .lets-connect {
-    margin-left: 0; /* Reset margin for social links */
-    justify-content: center; /* Center the social links */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column; /* Adjust to a column layout for mobile devices */
+  align-items: center;
+}
+
+.lets-connect {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center social links */
+  margin-top: 10px; /* Add some space at the top */
+}
+
+.instagram-icon {
+  color: white;
+}
+
+/* Hide the footer on mobile devices */
+@media only screen and (max-width: 768px) {
+  .footer {
+    display: none;
   }
+}
+
 }
 

@@ -3,10 +3,10 @@ import Navbar from '../../navBar/navbar';
 import './ProjectScreen.css'; 
 import img1 from './img1.png';
 import img2 from './img2.png';
-import img3 from './img3.png';
+//import img3 from './img3.png';
 import project2Img1 from './prj 2/img1.webp';
 import project2Img2 from './prj 2/img2.webp';
-import project2img3 from './prj 2/Screenshot (4).webp';
+
 
 const ProjectScreen = () => {
   return (
@@ -46,7 +46,7 @@ const ProjectScreen = () => {
         
         <img src={img1} alt="Screenshot 1" />
         <img src={img2} alt="Screenshot 2" />
-        <img src={img3} alt="Screenshot 3" />
+        
       </div>
 
       {/* Project 2 */}
@@ -102,19 +102,18 @@ const ProjectScreen = () => {
             <li>Text-heavy menus on websites are often difficult to read and book tickets.</li>
           </ul>
           
-          <h3 style={{marginLeft:"20px"}}>Usability Study Findings</h3>
           
-            <img src={project2img3} alt="Project 2 Screenshot 2" />
           
 
           <h3 style={{marginLeft:"20px"}}>Mockups</h3>
           <div className="project-screenshots">
             <img src={project2Img1} alt="Project 2 Screenshot 1" />
+            <br/>
             <img src={project2Img2} alt="Project 2 Screenshot 2" />
 
           </div>
 
-          {/* ... (Project 2 links) */}
+          
         </div>
       </div>
     </div>

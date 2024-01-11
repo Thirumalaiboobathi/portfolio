@@ -1,9 +1,6 @@
-/* ProjectScreen.css */
-
 .project-screen {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column; 
   margin: 20px;
   padding: 20px;
   border: 1px solid #ccc;
@@ -11,8 +8,8 @@
 }
 
 .project-details {
-  flex: 1;
-  margin-right: 20px;
+  margin-bottom: 20px;
+  color: #333; 
 }
 
 .project-details h1 {
@@ -20,7 +17,10 @@
   margin-bottom: 10px;
 }
 
-.project-details p {
+.project-details p,
+.project-details h2,
+.project-details ul,
+.project-details li {
   font-size: 16px;
   margin-bottom: 15px;
 }
@@ -59,42 +59,22 @@
   color: #fff;
 }
 
-.project-screenshot img {
+.project-screenshots img {
   max-width: 100%;
-  height: auto;
-  border-radius: 5px;
+  margin-bottom: 50px; /* Add space between images */
+  border-radius: 8px;
 }
-.project-screen {
-  display: flex;
-  flex-direction: column; 
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+.project-screenshots :last-child {
+  margin-bottom: 0; /* Remove margin from the last image to avoid extra space */
 }
 
-/* Additional styles to make it colorful and professional */
-.project-details {
-  margin-bottom: 20px;
-  color: #333; 
+.project-screenshots img:last-child {
+  margin-bottom: 0; /* Remove margin from the last image to avoid extra space */
 }
 
-.project-links a {
-  /* Updated button style */
-  background-color: #333;
-  color: #fff;
-}
-
-.project-screenshots {
-  display: flex;
-  justify-content: space-around; 
-  border: 1px solid #ccc; 
-  border-radius: 5px; 
-  
-}
 
 .project-screenshots img {
-  max-width: 30%;
-  margin-bottom: 20px; 
+  max-width: 30%; 
+  margin-bottom: 20px;
   border-radius: 8px;
 }
