@@ -9,7 +9,7 @@ const ContactScreen = () => {
       <Navbar />
       <div className="contact-container">
         <div className="contact-content">
-          <h2 className="contact-title">Contact Us</h2>
+          <h2 className="contact-title">Contact</h2>
           <div className="contact-details">
             <p>
             Thank you for exploring my portfolio! Whether you're intrigued by my projects, seeking collaboration opportunities, or simply want to exchange ideas, don't hesitate to get in touch. 
@@ -51,6 +51,7 @@ const ContactScreen = () => {
             </a>
           </div>
         </div>
+        
       </div>
     </div>
   );

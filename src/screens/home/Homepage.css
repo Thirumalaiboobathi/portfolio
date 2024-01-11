@@ -29,13 +29,7 @@
   align-items: center;
 }
 
-.icon-list img {
-  width: 50px;
-  height: 50px;
-  margin: 10px;
-  border-radius: 50%; /* To make the icons round */
-  /* Add more styles as needed */
-}
+
 .footer {
   background-color: #333;
   color: white;
@@ -70,4 +64,42 @@
 
 .instagram-icon {
   color: white;
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 768px) {
+  .homepage {
+    flex-direction: column;
+    padding: 10px; /* Adjust padding for smaller devices */
+  }
+
+  .left-section img {
+    width: 100%; /* Adjust the image width to fit smaller screens */
+    margin: 0; /* Reset margin for the image */
+  }
+
+  .right-section {
+    width: 100%; /* Occupy full width */
+    margin-top: 20px; /* Add some space between sections */
+  }
+
+  .icon-list img {
+    width: 100%; /* Adjust the width of the icon list image */
+    margin-right: 0; /* Reset margin for the image */
+  }
+
+  .professional-info {
+    text-align: center; /* Center the professional info */
+    margin-left: 0; /* Reset margin */
+  }
+
+  .footer {
+    padding: 10px 0; /* Adjust footer padding */
+    text-align: center;
+  }
+
+  .lets-connect {
+    margin-left: 0; /* Reset margin for social links */
+    justify-content: center; /* Center the social links */
+  }
 }

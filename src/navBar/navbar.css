@@ -11,12 +11,12 @@
 }
 
 .nav-link.active {
-  color: whitesmoke; /* Active link color */
+  color: gold; 
 }
 
 .nav-link.active::before {
-  content: '•'; /* Dot before active link text */
-  margin-right: 5px; /* Space between dot and text */
+  content: '•'; 
+  margin-right: 5px; 
 }
 /* navbar.css */
 
@@ -30,4 +30,7 @@
   font-size: 24px;
   margin-left: 20px;
   margin-right: 50 px;
+}
+.navbar .navbar-nav .nav-item .nav-link.active {
+  color: gold;
 }
