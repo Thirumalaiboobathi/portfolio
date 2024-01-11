@@ -1,100 +1,100 @@
 /* ProjectScreen.css */
 
 .project-screen {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.project-details {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.project-details h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-details p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.project-details h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.project-details ul {
+  margin-bottom: 15px;
+}
+
+.project-details ul li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.project-links {
+  display: flex;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 8px 15px;
+  text-decoration: none;
+  border: 1px solid #333;
+  border-radius: 5px;
+  color: #333;
+  font-size: 16px;
+}
+
+.project-links a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.project-screenshot img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.project-screen {
+  display: flex;
+  flex-direction: column; 
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Additional styles to make it colorful and professional */
+.project-details {
+  margin-bottom: 20px;
+  color: #333; 
+}
+
+.project-links a {
+  /* Updated button style */
+  background-color: #333;
+  color: #fff;
+}
+
+.project-screenshots {
+  display: flex;
+  justify-content: space-around; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
   
-  .project-details {
-    flex: 1;
-    margin-right: 20px;
-  }
-  
-  .project-details h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .project-details p {
-    font-size: 16px;
-    margin-bottom: 15px;
-  }
-  
-  .project-details h2 {
-    font-size: 20px;
-    margin-bottom: 8px;
-  }
-  
-  .project-details ul {
-    margin-bottom: 15px;
-  }
-  
-  .project-details ul li {
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
-  
-  .project-links {
-    display: flex;
-  }
-  
-  .project-links a {
-    display: inline-block;
-    margin-right: 10px;
-    padding: 8px 15px;
-    text-decoration: none;
-    border: 1px solid #333;
-    border-radius: 5px;
-    color: #333;
-    font-size: 16px;
-  }
-  
-  .project-links a:hover {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  .project-screenshot img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
-  .project-screen {
-    display: flex;
-    flex-direction: column; 
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  /* Additional styles to make it colorful and professional */
-  .project-details {
-    margin-bottom: 20px;
-    color: #333; 
-  }
-  
-  .project-links a {
-    /* Updated button style */
-    background-color: #333;
-    color: #fff;
-  }
-  
-  .project-screenshots {
-    display: flex;
-    justify-content: space-around; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    
-  }
-  
-  .project-screenshots img {
-    max-width: 30%;
-    margin-bottom: 20px; 
-    border-radius: 8px;
-  }
+}
+
+.project-screenshots img {
+  max-width: 30%;
+  margin-bottom: 20px; 
+  border-radius: 8px;
+}
