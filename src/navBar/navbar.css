@@ -34,3 +34,11 @@
 .navbar .navbar-nav .nav-item .nav-link.active {
   color: gold;
 }
+.hamburger-menu {
+  background-color: white; /* Set the background color to white */
+  border: none; /* Remove border for a cleaner look */
+}
+
+.hamburger-menu:focus {
+  outline: none; /* Remove focus outline for better aesthetics */
+}

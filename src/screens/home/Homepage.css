@@ -1,6 +1,4 @@
-/* Homepage.css */
 
-/* Add styles to center the image and adjust its size */
 .homepage {
   display: flex;
   justify-content: space-between;
@@ -15,14 +13,14 @@
   align-items: center;
 }
 
-/* Adjust the size of the profile image */
+/*  size of the profile image */
 .left-section img {
-  width: 580px; /* Adjust the width as needed */
-  height: auto; /* Let the height adjust proportionally */
+  width: 580px;
+  height: auto; 
   margin-left: 120px;
 }
 
-/* Other styles for the icon list */
+
 .right-section {
   display: flex;
   flex-direction: column;
@@ -35,13 +33,13 @@
   color: white;
   text-align: center;
   padding: 20px 0;
-  font-family: 'Roboto', sans-serif; /* Use Google Font 'Roboto' */
-  font-size: 18px; /* Adjust font size as needed */
-  font-weight: 700; /* Use font-weight 700 for boldness, adjust as desired */
+  font-family: 'Roboto', sans-serif; 
+  font-size: 18px; 
+  font-weight: 700; 
 }
 .footer p {
-  margin: 0; /* Remove default margins for the <p> tag */
-  font-size: 18px; /* Adjust font size as needed */
+  margin: 0; 
+  font-size: 18px; 
 }
 .footer-content {
   display: flex;
@@ -55,7 +53,7 @@
 }
 
 .centered-text {
-  text-align: center; /* Center the text */
+  text-align: center; 
  
   margin-left: 50px;
 }
@@ -70,30 +68,30 @@
 @media only screen and (max-width: 768px) {
   .homepage {
     flex-direction: column;
-    padding: 10px; /* Adjust padding for smaller devices */
+    padding: 10px;
   }
 
   .left-section img {
-    width: 100%; /* Adjust the image width to fit smaller screens */
-    margin: 0; /* Reset margin for the image */
+    width: 100%; 
+    margin: 0; 
   }
 
   .right-section {
-    width: 100%; /* Occupy full width */
-    margin-top: 20px; /* Add some space between sections */
+    width: 100%; 
+    margin-top: 20px; 
   }
 
   .icon-list img {
-    width: 100%; /* Adjust the width of the icon list image */
-    margin-right: 0; /* Reset margin for the image */
+    width: 100%; 
+    margin-right: 0; 
   }
 
   .professional-info {
-    text-align: center; /* Center the professional info */
-    margin-left: 0; /* Reset margin */
+    text-align: center; 
+    margin-left: 0; 
   }
 
-/* ... (Existing styles) ... */
+
 
 .footer {
   background-color: #333;

@@ -16,7 +16,8 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
         <button
-          className="navbar-toggler"
+          className={`navbar-toggler hamburger-menu ${isNavCollapsed ? 'collapsed' : ''}`}
+
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
