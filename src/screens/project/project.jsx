@@ -5,8 +5,12 @@ import img1 from './img1.png';
 import img2 from './img2.png';
 //import img3 from './img3.png';
 import project2Img1 from './prj 2/img1.webp';
-import project2Img2 from './prj 2/img2.webp';
-
+import project2Img2 from './prj 2/pr2.1.png';
+import proj3img1 from './prj 2/prj-3 scr1.webp';
+import proj3img2 from './prj 2/pr3.1.png';
+import proj3scr3 from './prj 2/prj-3 scr-4.webp';
+import pr1 from './prj 2/pr1.png';
+import pr2 from './prj 2/pr2.png'
 
 const ProjectScreen = () => {
   return (
@@ -32,22 +36,24 @@ const ProjectScreen = () => {
           <h2>Technologies Used</h2>
           <ul>
             <li>React js</li>
-            {/* Add more technologies if applicable */}
+            
           </ul>
 
           <div className="project-links">
             <a href="https://luxury-toffee-e2fd3b.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
             <a href="https://github.com/Thirumalaiboobathi/Simple-Google-Product-Page" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
-        </div>
-      </div>
-      <h3 style={{marginLeft:"20px"}}>Mockups</h3>
+          <h3 >Mockups</h3>
       <div className="project-screenshots">
         
         <img src={img1} alt="Screenshot 1" />
         <img src={img2} alt="Screenshot 2" />
+        <img src={pr1} alt="Project 2 Screenshot 2" />
         
       </div>
+        </div>
+      </div>
+      
 
       {/* Project 2 */}
       <div className="project-screen">
@@ -105,10 +111,10 @@ const ProjectScreen = () => {
           
           
 
-          <h3 style={{marginLeft:"20px"}}>Mockups</h3>
+          <h3 >Mockups</h3>
           <div className="project-screenshots">
             <img src={project2Img1} alt="Project 2 Screenshot 1" />
-            <br/>
+            <img src={pr2} alt="Project 2 Screenshot 2" />
             <img src={project2Img2} alt="Project 2 Screenshot 2" />
 
           </div>
@@ -116,6 +122,62 @@ const ProjectScreen = () => {
           
         </div>
       </div>
+      {/* Project 3 details */}
+      <div className="project-screen">
+        <div className="project-details">
+          <h1 style={{ textAlign: 'center' }}>Project 3</h1>
+          <h1>Local Politics Awareness Website</h1>
+          <p>
+            In the one-week-long project, I worked as a designer from conception to delivery to design a responsive website aimed at providing information about local politics to young individuals.
+          </p>
+
+          <h2>Overview</h2>
+          <p>
+            The project focused on addressing the lack of awareness about local politics among the nation's youth, which poses a threat to the democratic process. The goal was to design a responsive website to improve education on the topic of local politics and help young individuals become more informed.
+          </p>
+
+          <h2>Timeline</h2>
+          <p>February 2023</p>
+
+          <h2>Platform</h2>
+          <p>Website</p>
+
+          <h2>Tools</h2>
+          <p>Figma</p>
+
+          <h2>My Role</h2>
+          <p>UX Designer</p>
+
+          <h2>Problem</h2>
+          <p>
+            Most youngsters in the nation are not aware of the local politics, leading to a decline in democratic engagement.
+          </p>
+
+          <h2>Goal</h2>
+          <p>
+            Design a responsive website that enhances education on local politics and helps youngsters understand and engage with local political issues.
+          </p>
+
+          <h2>Responsibilities</h2>
+          <p>
+            Conducting interviews, paper and digital wireframing, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, iterating on designs, and implementing responsive design.
+          </p>
+
+          <h2>User Research</h2>
+          <p>
+            Utilized Public Affairs data on local politics to develop interview questions. Participants expressed a lack of active interest in local politics, but the feedback highlighted a willingness to increase knowledge if provided with an easy-to-use tool.
+          </p>
+        </div>
+        <h3 >Mockups</h3>
+          <div className="project-screenshots">
+            <img src={proj3img1} alt="Project 2 Screenshot 1" />
+            
+            <img src={proj3img2} alt="Project 2 Screenshot 2" />
+            <img src={proj3scr3} alt="Project 2 Screenshot 2" />
+
+          </div>
+      </div>
+      
     </div>
   );
 };

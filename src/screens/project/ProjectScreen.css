@@ -1,6 +1,6 @@
 .project-screen {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   margin: 20px;
   padding: 20px;
   border: 1px solid #ccc;
@@ -9,7 +9,7 @@
 
 .project-details {
   margin-bottom: 20px;
-  color: #333; 
+  color: #333;
 }
 
 .project-details h1 {
@@ -61,20 +61,31 @@
 
 .project-screenshots img {
   max-width: 100%;
-  margin-bottom: 50px; /* Add space between images */
   border-radius: 8px;
+  margin-bottom: 20px; /* Add space between images in normal view */
 }
+
 .project-screenshots :last-child {
   margin-bottom: 0; /* Remove margin from the last image to avoid extra space */
 }
 
-.project-screenshots img:last-child {
-  margin-bottom: 0; /* Remove margin from the last image to avoid extra space */
+/* Media Queries */
+@media only screen and (min-width: 768px) {
+  .project-screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .project-screenshots img {
+    max-width: 48%; /* Display two images side by side on larger screens */
+    margin-bottom: 20px; /* Adjusted margin between images on larger screens */
+  }
 }
 
-
-.project-screenshots img {
-  max-width: 30%; 
-  margin-bottom: 20px;
-  border-radius: 8px;
+@media only screen and (min-width: 992px) {
+  .project-screenshots img {
+    max-width: 30%; /* Adjust the width for even larger screens */
+    margin-bottom: 20px; /* Adjusted margin between images on even larger screens */
+  }
 }
