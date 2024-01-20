@@ -1,9 +1,10 @@
 import React from 'react';
 import './Homepage.css';
-import logo from './img.jpeg';
+import logo from './imga1.jpg';
 import Navbar from '../../navBar/navbar';
 import { FaInstagram } from 'react-icons/fa';
 import icons from './icons.jpeg';
+
 
 const Homepage = () => {
   return (
