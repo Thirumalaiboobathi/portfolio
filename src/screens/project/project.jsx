@@ -60,7 +60,7 @@ const ProjectScreen = () => {
       <div className="project-screen">
         <div className="project-details">
           <h1 style={{textAlign:'center'}}>Project 2</h1>
-          <h1>My Project UX Design</h1>
+          <h1>Cinitime</h1>
           <p>
             In the One-week long Project, I worked as a designer from conception to delivery to design a responsive website that allows users to book tickets for movies.
           </p>
