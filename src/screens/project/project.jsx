@@ -43,6 +43,7 @@ const ProjectScreen = () => {
             <a href="https://luxury-toffee-e2fd3b.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
             <a href="https://github.com/Thirumalaiboobathi/Simple-Google-Product-Page" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
+          <br/>
           <h3 >Mockups</h3>
       <div className="project-screenshots">
         
@@ -167,8 +168,8 @@ const ProjectScreen = () => {
           <p>
             Utilized Public Affairs data on local politics to develop interview questions. Participants expressed a lack of active interest in local politics, but the feedback highlighted a willingness to increase knowledge if provided with an easy-to-use tool.
           </p>
-        </div>
-        <h3 >Mockups</h3>
+          <br/>
+          <h3 >Mockups</h3>
           <div className="project-screenshots">
             <img src={proj3img1} alt="Project 2 Screenshot 1" />
             
@@ -176,6 +177,8 @@ const ProjectScreen = () => {
             <img src={proj3scr3} alt="Project 2 Screenshot 2" />
 
           </div>
+        </div>
+        
       </div>
       
     </div>

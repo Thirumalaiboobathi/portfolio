@@ -133,3 +133,85 @@
 }
 
 }
+.professional-info {
+  text-align: center;
+  margin-left: 0;
+}
+
+.professional-info h2 {
+  color: #333; /* Adjust the color to your preference */
+}
+
+.professional-info ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left; 
+}
+
+.professional-info li {
+  margin-bottom: 10px;
+}
+
+.professional-info li strong {
+  color:#333; 
+}
+
+@media only screen and (max-width: 768px) {
+  .homepage {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .left-section img , .icon-list img{
+    width: 100%;
+    margin: 0;
+  }
+
+  .right-section {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .icon-list img {
+    width: 20%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure it takes the full width available */
+    margin-bottom: 20px; /* Add some margin for better spacing */
+    margin-left: 30px;
+  }
+
+  .professional-info {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .professional-info ul {
+    text-align: left; /* Adjust text alignment for list items on mobile devices */
+    padding-left: 0; /* Remove padding for better alignment */
+  }
+
+  .professional-info li {
+    margin-bottom: 10px;
+  }
+
+  .professional-info li strong {
+    color: #333; /* Adjust the color to your preference */
+  }
+}
+
+/* ... (your existing styles) */
+
+.professional-info {
+  border: 2px solid #333; /* Set the initial border color */
+  border-radius: 10px;
+  padding: 15px;
+  transition: border-color 0.3s ease; /* Add a transition for a smooth effect */
+
+  /* Hover effect */
+  &:hover {
+    border-color: #333; 
+    box-shadow: 0 0 10px #333; 
+  }
+}
+
+/* ... (your existing styles) */
