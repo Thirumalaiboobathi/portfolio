@@ -36,7 +36,7 @@ const ProjectScreen = () => {
           <h2>Technologies Used</h2>
           <ul>
             <li>React js</li>
-            <li>Mock API (json-server) - Running at https://657fb88b6ae0629a3f538d87.mockapi.io/project</li>
+            <li>Mock API (json-server) - Running at http://tinyurl.com/5ct2uur3</li>
           </ul>
 
           <div className="project-links">
