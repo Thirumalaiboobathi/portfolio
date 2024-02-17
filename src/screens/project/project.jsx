@@ -26,18 +26,29 @@ const ProjectScreen = () => {
             Users can browse and purchase items, while administrators have access to order details.
           </p>
           
-          <h2>Key Features</h2>
+          <h2>🌐 Key Features:</h2>
           <ul>
-            <li>User Authentication: Separate logins for users and admin.</li>
-            <li>Product Catalog: Display of phones, headphones, and accessories.</li>
-            <li>Admin Privileges: Admin can view customer orders.</li>
+            <li><span><b>Tech-Driven Real-Time Updates:</b> </span>Seamlessly integrated with cutting-edge technologies, 
+              our application ensures lightning-fast real-time data updates, delivering accurate and up-to-date product information. 🔄</li>
+            <li><span><b>Secure Authentication:</b> </span> With the robust combination of Google Firebase and Springboot, the application offers a dual-login system ensuring secure access for both regular users and administrators. 🔐</li>
+            <li><span><b>Dynamic Admin Product Management:</b> </span> Empowering administrators, the application, built on MongoDB, allows them to effortlessly add new products, ensuring a dynamic and ever-expanding product catalog. 📈</li>
           </ul>
 
-          <h2>Technologies Used</h2>
+          <h2>🔧 Tech Stack:</h2>
           <ul>
-            <li>React js</li>
-            <li>Mock API (json-server) - Running at http://tinyurl.com/5ct2uur3</li>
+            <li>🌐 Frontend: ReactJS</li>
+            <li>⚙️ Backend: Springboot</li>
+            <li>📊 Database: MongoDB</li>
+            <li>🔐 Authentication: Google Firebase</li>
+
           </ul>
+          <h2>💡 What Sets This Project Apart:</h2>
+          <ul>
+            <li><strong>User-Centric Design:</strong> Prioritizing a seamless user experience to enhance customer satisfaction.</li>
+            <li><strong>Tech-Driven Innovation:</strong> Leveraging a powerful tech stack for dynamic and accurate product information.</li>
+            <li><strong>Scalability:</strong> Designed with the future in mind, allowing easy scalability and addition of new features.</li>
+          </ul>
+
 
           <div className="project-links">
             <a href="https://luxury-toffee-e2fd3b.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>

@@ -20,32 +20,34 @@ const Homepage = () => {
             <img src={icons} alt="Your Name" style={{width:'400px',height:'auto',marginRight:'70px',marginBottom:'20px'}}/>
           </div>
           <div className="professional-info">
-            <h2>Professional Skills</h2>
-            <ul>
-              <li>
-                <strong>Web Development:</strong> HTML, CSS, JavaScript, Bootstrap, TailwindCSS, ReactJS, Git
-              </li>
-              <li>
-                <strong>Programming:</strong> C/C++, Python, Java
-              </li>
-              <li>
-                <strong>Database:</strong> MySQL
-              </li>
-              <li>
-                <strong>API Development & Integration:</strong> MockAPI (Simulated API Integration), RESTful API Design
-              </li>
-              <li>
-                <strong>Development Tools:</strong> Figma, Adobe XD
-              </li>
-              <li>
-                <strong>Design:</strong> User research, Wireframing, Usability Study, Prototyping
-              </li>
-            </ul>
+          <h2>Professional Skills</h2>
+          <ul>
+            <li>
+              <strong>Web Development:</strong> HTML, CSS, JavaScript, Bootstrap, TailwindCSS, ReactJS, Git
+            </li>
+            <li>
+              <strong>Programming:</strong> C/C++, Python, Java
+            </li>
+            <li>
+              <strong>Database:</strong> MySQL,MongoDB
+            </li>
+            <li>
+              <strong>API Development & Integration:</strong> MockAPI (Simulated API Integration), RESTful API Design,Spring Boot
+            </li>
+            <li>
+              <strong>Development Tools:</strong> Figma, Adobe XD,Postman, Spring Tool Suite
+            </li>
+            <li>
+              <strong>Design:</strong> User research, Wireframing, Usability Study, Prototyping
+            </li>
+          </ul>
+
+
           </div>
            {/* Add a download link for your resume */}
            <a
-                href="https://drive.google.com/file/d/1d2rFzWx56eYYx0q9mlf7RUPXWVv5r-bi/view?usp=sharing" // Replace with the actual path to your resume file
-                download="Thirumalaiboobathi_Resume.pdf" // Specify the filename for the downloaded file
+                href="https://drive.google.com/file/d/1yOAQJYcpkpyZR7vg31Aay-umscyxlPz0/view?usp=sharing" 
+                download="Thirumalaiboobathi_Resume.pdf" 
                 style={{ marginLeft: '10px', fontSize: '30px' }}
               >
                 Download Resume
@@ -59,14 +61,14 @@ const Homepage = () => {
             <p>Thirumalaiboobathi | Full Stack Developer</p>
 
             <div className="social-links" style={{ marginLeft: '1090px' }}>
-              {/* Instagram link with Instagram icon */}
+            
               <a
                 href="https://www.instagram.com/thirumalaiboobathi/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaInstagram style={{ fontSize: '30px' }} className="instagram-icon" />
-                {/* Instagram icon */}
+                
               </a>
             </div>
           </div>
